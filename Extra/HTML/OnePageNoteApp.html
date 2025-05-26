@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Page Note App</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 600px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .note {
+        margin-bottom: 15px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        position: relative;
+      }
+
+      .note input[type="text"],
+      .note textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+      }
+
+      .note textarea {
+        resize: vertical;
+        height: 80px;
+      }
+
+      .note button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        margin-top: 5px;
+        cursor: pointer;
+        border-radius: 3px;
+        float: right;
+      }
+
+      .note button:hover {
+        background-color: #45a049;
+      }
+
+      .note .actions {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+
+      .note .actions button {
+        margin-left: 5px;
+      }
+
+      .actions-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+
+      .actions-bar button {
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      .actions-bar button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>One Page Note App</h1>
+      <div id="notes"></div>
+      <div class="note">
+        <input type="text" id="title" placeholder="Title" />
+        <textarea id="content" placeholder="Enter your note"></textarea>
+        <div class="actions">
+          <button id="addNote">Add Note</button>
+        </div>
+      </div>
+      <div class="actions-bar">
+        <button id="downloadAll">Download All Notes (TXT)</button>
+        <button id="downloadPDF">Download All Notes (PDF)</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering C++: Topics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: #ccc solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mastering C++: Topics</h1>
+        
+        <h2>Basics of C++</h2>
+        <ul>
+            <li><strong>Introduction to C++</strong>
+                <ul>
+                    <li>History and evolution</li>
+                    <li>Differences between C and C++</li>
+                    <li>Setting up the environment</li>
+                </ul>
+            </li>
+            <li><strong>Basic Syntax</strong>
+                <ul>
+                    <li>Data types</li>
+                    <li>Variables</li>
+                    <li>Constants</li>
+                    <li>Operators</li>
+                    <li>Input/Output (cin, cout)</li>
+                    <li>Comments</li>
+                </ul>
+            </li>
+            <li><strong>Control Structures</strong>
+                <ul>
+                    <li>Conditional statements (if, else, switch)</li>
+                    <li>Loops (for, while, do-while)</li>
+                    <li>Break and continue statements</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Intermediate C++</h2>
+        <ul>
+            <li><strong>Functions</strong>
+                <ul>
+                    <li>Declaration and definition</li>
+                    <li>Scope and lifetime of variables</li>
+                    <li>Parameter passing (by value, by reference)</li>
+                    <li>Default arguments</li>
+                    <li>Inline functions</li>
+                    <li>Function overloading</li>
+                    <li>Recursive functions</li>
+                </ul>
+            </li>
+            <li><strong>Arrays and Strings</strong>
+                <ul>
+                    <li>One-dimensional and multi-dimensional arrays</li>
+                    <li>Character arrays and string manipulation</li>
+                    <li>The <code>string</code> class</li>
+                </ul>
+            </li>
+            <li><strong>Pointers and References</strong>
+                <ul>
+                    <li>Basics of pointers</li>
+                    <li>Pointer arithmetic</li>
+                    <li>Pointers to functions</li>
+                    <li>Pointers to pointers</li>
+                    <li>References and their uses</li>
+                    <li>Dynamic memory allocation (new, delete)</li>
+                    <li>Smart pointers (unique_ptr, shared_ptr, weak_ptr)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Object-Oriented Programming (OOP)</h2>
+        <ul>
+            <li><strong>Classes and Objects</strong>
+                <ul>
+                    <li>Class definition and objects</li>
+                    <li>Access specifiers (public, private, protected)</li>
+                    <li>Member functions and data members</li>
+                    <li>Constructors and destructors</li>
+                    <li>Static members</li>
+                    <li>Friend functions and classes</li>
+                </ul>
+            </li>
+            <li><strong>Inheritance</strong>
+                <ul>
+                    <li>Base and derived classes</li>
+                    <li>Types of inheritance (single, multiple, hierarchical, multilevel)</li>
+                    <li>Function overriding</li>
+                    <li>Virtual base classes</li>
+                </ul>
+            </li>
+            <li><strong>Polymorphism</strong>
+                <ul>
+                    <li>Function overloading vs function overriding</li>
+                    <li>Virtual functions</li>
+                    <li>Pure virtual functions and abstract classes</li>
+                    <li>Run-time polymorphism</li>
+                </ul>
+            </li>
+            <li><strong>Operator Overloading</strong>
+                <ul>
+                    <li>Overloading unary and binary operators</li>
+                    <li>Overloading relational operators</li>
+                    <li>Overloading stream insertion and extraction operators</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Advanced C++</h2>
+        <ul>
+            <li><strong>Templates</strong>
+                <ul>
+                    <li>Function templates</li>
+                    <li>Class templates</li>
+                    <li>Template specialization</li>
+                    <li>Template metaprogramming</li>
+                </ul>
+            </li>
+            <li><strong>Exception Handling</strong>
+                <ul>
+                    <li>Try, catch, and throw blocks</li>
+                    <li>Standard exceptions</li>
+                    <li>Custom exceptions</li>
+                    <li>Exception safety</li>
+                </ul>
+            </li>
+            <li><strong>Standard Template Library (STL)</strong>
+                <ul>
+                    <li>Containers (vector, list, deque, set, map, etc.)</li>
+                    <li>Iterators</li>
+                    <li>Algorithms</li>
+                    <li>Functors</li>
+                    <li>Lambda expressions</li>
+                </ul>
+            </li>
+            <li><strong>File Handling</strong>
+                <ul>
+                    <li>File streams (ifstream, ofstream, fstream)</li>
+                    <li>Reading from and writing to files</li>
+                    <li>File modes and operations</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Modern C++ (C++11 and beyond)</h2>
+        <ul>
+            <li><strong>New Features in C++11/14/17/20</strong>
+                <ul>
+                    <li>Auto keyword</li>
+                    <li>Range-based for loops</li>
+                    <li>nullptr</li>
+                    <li>Move semantics and rvalue references</li>
+                    <li>Lambda expressions</li>
+                    <li>Smart pointers</li>
+                    <li>Concurrency (threads, mutexes, etc.)</li>
+                    <li>Variadic templates</li>
+                    <li>constexpr</li>
+                    <li>std::optional, std::variant, std::any</li>
+                    <li>Concept and modules (C++20)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Best Practices and Design Patterns</h2>
+        <ul>
+            <li><strong>Code Organization</strong>
+                <ul>
+                    <li>Header files and source files</li>
+                    <li>Namespaces</li>
+                    <li>Preprocessor directives</li>
+                    <li>Modular programming</li>
+                </ul>
+            </li>
+            <li><strong>Design Patterns</strong>
+                <ul>
+                    <li>Creational patterns (Singleton, Factory, Builder, etc.)</li>
+                    <li>Structural patterns (Adapter, Composite, Proxy, etc.)</li>
+                    <li>Behavioral patterns (Observer, Strategy, Command, etc.)</li>
+                </ul>
+            </li>
+            <li><strong>Best Practices</strong>
+                <ul>
+                    <li>Code readability and style</li>
+                    <li>Documentation and comments</li>
+                    <li>Performance optimization</li>
+                    <li>Memory management</li>
+                    <li>Debugging techniques</li>
+                    <li>Testing (unit tests, integration tests)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Tools and Ecosystem</h2>
+        <ul>
+            <li><strong>Development Tools</strong>
+                <ul>
+                    <li>Integrated Development Environments (IDEs)</li>
+                    <li>Build systems (Makefile, CMake)</li>
+                    <li>Version control systems (Git)</li>
+                </ul>
+            </li>
+            <li><strong>Libraries and Frameworks</strong>
+                <ul>
+                    <li>Boost</li>
+                    <li>Qt</li>
+                    <li>POCO</li>
+                    <li>OpenCV</li>
+                    <li>Gaming libraries (SFML, SDL)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Advanced Topics</h2>
+        <ul>
+            <li><strong>Multithreading and Concurrency</strong>
+                <ul>
+                    <li>Thread creation and management</li>
+                    <li>Synchronization (mutex, lock, condition variable)</li>
+                    <li>Parallel algorithms</li>
+                    <li>Async and future</li>
+                </ul>
+            </li>
+            <li><strong>Networking</strong>
+                <ul>
+                    <li>Sockets programming</li>
+                    <li>HTTP/HTTPS</li>
+                    <li>Asynchronous I/O</li>
+                </ul>
+            </li>
+            <li><strong>Interfacing with Other Languages</strong>
+                <ul>
+                    <li>C++ with C</li>
+                    <li>C++ with Python (using Boost.Python, pybind11)</li>
+                    <li>C++ with Java (JNI)</li>
+                </ul>
+            </li>
+            <li><strong>Performance Tuning</strong>
+                <ul>
+                    <li>Profiling tools</li>
+                    <li>Code optimization techniques</li>
+                    <li>Memory leak detection</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Continuous Learning</h2>
+        <ul>
+            <li><strong>Projects and Contributions</strong>
+                <ul>
+                    <li>Contributing to open-source projects</li>
+                    <li>Building your own projects</li>
+                    <li>Participating in coding competitions and challenges</li>
+                </ul>
+            </li>
+            <li><strong>Staying Updated</strong>
+                <ul>
+                    <li>Reading C++ blogs and books</li>
+                    <li>Attending conferences and meetups</li>
+                    <li>Following C++ standards committee updates</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
